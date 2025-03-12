@@ -43,7 +43,16 @@ inventory:
     items:
       Flashlight: 100
       Coin: 90
-    ammos: 
+    ammos:
+inventory:
+    DefaultFacilityGuard:
+    role_type_id: FacilityGuard
+    keep_items: true
+    items:
+      GunCOM18: 100
+      KeycardGuard: 100
+    ammos:
+      Ammo9x19: 120
 # Custom inventory list for players with a rank
 inventory_rank:
   owner:
